@@ -22,7 +22,7 @@ import { ExternalLink, ArrowLeft, Share2, Check, Copy } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
-const BUILDER_CODE = "PREDICTBOARD";
+const BUILDER_CODE = "SIGMAR";
 
 export default function MarketDetailPage({
   params,

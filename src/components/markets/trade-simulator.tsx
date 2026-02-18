@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { formatCurrency } from "@/lib/utils/format";
 import { Calculator, ExternalLink, TrendingUp } from "lucide-react";
 
-const BUILDER_CODE = "PREDICTBOARD";
+const BUILDER_CODE = "SIGMAR";
 
 export function TradeSimulator({ market }: { market: UnifiedMarket }) {
   const [amount, setAmount] = useState("100");

@@ -10,7 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Save, ExternalLink, Globe } from "lucide-react";
 
 export default function SettingsPage() {
-  const [builderCode, setBuilderCode] = useState("PREDICTBOARD");
+  const [builderCode, setBuilderCode] = useState("SIGMAR");
   const [darkMode, setDarkMode] = useState(true);
   const [saved, setSaved] = useState(false);
 
@@ -108,7 +108,7 @@ export default function SettingsPage() {
               id="builder-code"
               value={builderCode}
               onChange={(e) => setBuilderCode(e.target.value)}
-              placeholder="PREDICTBOARD"
+              placeholder="SIGMAR"
             />
           </div>
         </CardContent>
